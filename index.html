@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body
+{
+	background-color:#777777;
+}
+p
+{
+	font-family:"Times New Roman";
+	font-size:30px;
+       text-align:center;
+}
+ .header{  
+                padding: 10px 0;  
+    
+              color:black;
+	text-align:center;
+        font-family:"Lucida Console";
+        font-size:50px 
+            }  
+.sidebar{  
+                float: left;
+                width: 150px;  
+                background: #FFFAF0;  
+            }  
+
+.content {
+position:relative;
+width:auto;
+min-width:120px;
+margin:0px 210px 20px 170px;
+border:1px solid black;
+padding:10px;
+z-index:3;} 
+a:link { 
+color:#DCDCDC;
+text-decoration:underline; 
+} 
+a:visited { 
+color:	#DCDCDC; 
+text-decoration:none; 
+} 
+a:hover { 
+color:#000000; 
+text-decoration:none; 
+} 
+a:active { 
+color:#DCDCDC; 
+text-decoration:none; 
+} 
+</style>
+
+<head>
+<body>
+   <div class="header">  
+                <h1>TEACH U WEB</h1>  
+   </div>  
+ <div class="sidebar">  
+                    <a href="https://megurokawa.github.io/html/" target="_blank"><p>HTML</p></a> 
+                    <a href="https://megurokawa.github.io/html5/" target="_blank"><p>XHTML</p></a>
+                    <a href="https://megurokawa.github.io/xhtml/" target="_blank"><p>HTML5</p></a>
+                    <a href="https://megurokawa.github.io/css/" target="_blank"><p>CSS</p></a>
+                  <a href="https://megurokawa.github.io/teachuweb/" target="_blank"><p>TEACH U WEB</p></a>
+   </div>
+<div class="content"> 
+<h2> HTML-XHTML</h2>
+<hr>
+<h4>XHTML is HTML which is written in XML format.</h4>
+<hr>
+<ul>
+<h3>What is XHTML?</h3>
+<li>XHTML refers to the eXtensible Hypertext Markup Language.</li>
+<li>XHTML is almost the same as HTML 4.01.</li>
+<li>XHTML is a more rigorous and purer  version of HTML.</li>
+<li>XHTML is an HTML that is defined as an XML application.</li>
+<li>XHTML is the W3C recommendation released in January 2001.</li>
+<li>XHTML is supported by all major browsers.</li>
+
+</ul>
+
+<hr>
+<ul>
+<h3>Why use XHTML?</h3>
+<h4>Many pages on the Internet contain "bad" HTML codes</h4>
+<h4>XML is a well-formed and well-marked markup language that must be correctly tagged.</h4>
+<h4>Today's tech community has some different browser technologies.</h4>
+<h4>Some of them run on computers while others may run on mobile phones or other small devices.</h4>
+<h4>So - XHTML was developed by combining the strengths of XML and HTML.</h4>
+<h4>XHTML is an HTML redesigned as XML.</h4>
+
+</ul>
+<hr>
+<h3>The most important difference compared to HTML:</h3>
+<h4>Document structure</h4>
+<li>XHTML DOCTYPE is <em>mandatory</em></li>
+<li>The XML namespace attribute in &lt;html&gt;  is <em>mandatory</em></li>
+<li>&lt;html&gt;¡¢&lt;head&gt;¡¢&lt;title&gt; and &lt;body&gt; are also<em>mandatory</em></li>
+<h3>Element syntax<h3>
+<li>XHTML elements must be <em>properly nested</em></li>
+<li>XHTML elements must always be <em>closed</em></li>
+<li>XHTML elements must be <em>lowercase</em></li>
+<li>XHTML documents must have a <em>root element</em></li>
+<h3>Attribute syntax</h3>
+<li>XHTML attributes must be <em>lowercase</em></li>
+<li>XHTML elements must be <em>lowercase</em></li>
+<li>It is also <em>forbidden</em> to minimize XHTML attributes</li>
+</ul>
+<hr>
+<ul>
+<h3>XHTML elements must be properly nested</h3>
+<h4>In HTML, some elements can not nest with each other, like this:</h4>
+<h4>&lt;b&gt&lt;i&gtBold and italic text&lt;/b&gt&lt;/i&gt</h4>
+<h4>In XHTML, all the elements must be properly nested like this:</h4>
+<h4>&lt;b&gt&lt;i&gtBold and italic text&lt;/i&gt&lt;/b&gt</h4>
+</ul>
+<hr>
+<ul>
+<h3>XHTML elements must have closed tags</h3>
+<h4>Bad example:</h4>
+<h4>&lt;p&gtit is a paragraph</h4>
+<h4>&lt;p&gtit is another paragraph</h4>
+<h4>right example:</h4>
+<h4>&lt;p&gtit is a paragraph&lt;/p&gt</h4>
+<h4>&lt;p&gtit is another paragraph&lt;/p&gt</h4>
+</ul>
+<hr>
+<ul>
+<h3>XHTML elements must be lowercase</h3>
+<h4>Bad example:</h4>
+<h4>&lt;BODY&gt</h4>
+<h4>&lt;P&gtit is a paragraph&lt;/P&gt</h4>
+<h4>&lt;/BODY&gt</h4>
+<h4>right example:</h4>
+<h4>&lt;body&gt</h4>
+<h4>&lt;p&gtit is a paragraph&lt;/p&gt</h4>
+<h4>&lt;/body&gt</h4>
+</ul>
+<hr>
+<ul>
+<h3>Attribute names must be lowercase</h3>
+<h4>Bad example:</h4>
+<h4>&lt;table WIDTH="100%"&gt</h4>
+<h4>right example:</h4>
+<h4>&lt;table width="100%"&gt</h4>
+</ul>
+<hr>
+<ul>
+<h3>Attribute values must be in quotes</h3>
+<h4>Bad example:</h4>
+<h4>&lt;table width=100%&gt</h4>
+<h4>right example:</h4>
+<h4>&lt;table width="100%"&gt</h4>
+</ul>
+<hr>
+<ul>
+<h3>Property shortcuts are not allowed</h3>
+<h4>Bad example:</h4>
+<h4>&lt;input checked&gt</h4>
+<h4>&lt;input readonly</h4>
+<h4>&lt;input disabled&gt</h4>
+<h4>&lt;option selected&gt</h4>
+<h4>right example:</h4>
+<h4>&lt;input checked="checked"&gt</h4>
+<h4>&lt;input readonly="readonly"&gt</h4>
+<h4>&lt;input disabled="disabled"&gt</h4>
+<h4>&lt;option selected="selected"&gt</h4>
+</ul>
+<hr>
+<ol>
+<h3>How to convert HTML to XHTML</h3>
+<li>Add an XHTML <! DOCTYPE> to your web page.</li>
+<li>Add the xmlns attribute to the html element of each page.</li>
+<li>Change all elements to lowercase.</li>
+<li>Close all the empty elements.</li>
+<li>Modify all the attribute names to lowercase</li>
+<li>Add quotation marks for all attribute values</li>
+
+</ol>
+<hr>
+<ol>
+<h3>Use the W3C Validator to test your XHTML</h3>
+<form method="get" action="http://validator.w3.org/check" target="_blank">
+<p>Please enter your URL in the box below:</p>
+<p><input name="uri" size="60" ></p>
+<input type="submit" value="XHTML Valid" ></form>
+
+</div>
+<a href="#top" target="_self">back to the top</a>
+</body>
+</html>
